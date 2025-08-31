@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getMessaging, getToken, onMessage } from 'firebase/messaging';
 const firebaseConfig = {
-    apiKey: "AIzaSyBpmT10e7yYBT1a5zr_aiInuZTg72b_AgU",
+    apiKey: "",
     authDomain: "web-notif-9eba0.firebaseapp.com",
     databaseURL: "https://web-notif-9eba0.firebaseio.com",
     projectId: "web-notif-9eba0",

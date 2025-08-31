@@ -2,7 +2,7 @@ importScripts('https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js')
 importScripts('https://www.gstatic.com/firebasejs/9.6.1/firebase-messaging-compat.js');
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBpmT10e7yYBT1a5zr_aiInuZTg72b_AgU",
+    apiKey: "",
     authDomain: "web-notif-9eba0.firebaseapp.com",
     databaseURL: "https://web-notif-9eba0.firebaseio.com",
     projectId: "web-notif-9eba0",
