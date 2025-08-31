@@ -1,0 +1,115 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-side {
+    background-image: url("./assets/img/bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 100vh;
+}
+
+.img-side-bottom {
+    position: absolute;
+    bottom: 0;
+    right: -12px;
+    width: calc(40% - 30px);
+}
+
+.div-img-top {
+    position: absolute;
+    top: 32px;
+    left: 42px;
+    width: calc(100% - 80px);
+}
+
+.logo {
+    width: 156px
+}
+
+.card-form {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 30vh;
+}
+
+.card-form h4 {
+    color: #1D1D1D;
+    font-size: 28px
+}
+
+.card-form h6 {
+    color: #404040;
+    font-size: 16px
+}
+
+.btn-login {
+    background-color: #EE7214 !important;
+    color: #fff !important;
+}
+
+.btn-login:hover {
+    background-color: var(--color-primary) !important;
+    color: #fefefe !important;
+    border: solid #2d2d2d 1px;
+    -moz-box-shadow: inset 0 0 10px #2d2d2d;
+    -webkit-box-shadow: inset 0 0 10px #2d2d2d;
+    box-shadow: inset 0 0 10px #2d2d2d;
+}
+
+.btn-opsi {
+    padding: 11px 5px 0 0 !important;
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+    margin: 0 !important;
+}
+
+.btn-opsi:hover {
+    color: #1C446B !important;
+    background-color: #fefefe !important;
+}
+
+.form-control {
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+}
+
+.material-icons {
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.btn-close-modal {
+    border-radius: 50% !important;
+    background-color: #292D32 !important;
+    color: #fefefe;
+    padding: 5px
+}
+
+@media screen and (max-width: 768px) {
+    .bg-side {
+        display: none;
+    }
+
+    .div-img-top {
+        top: 22px;
+        left: 32px;
+    }
+
+    .card-form {
+        margin-top: 20vh;
+        width: 90%;
+    }
+
+    .card-form h4 {
+        font-size: 24px
+    }
+
+    .card-form h6 {
+        font-size: 14px
+    }
+}

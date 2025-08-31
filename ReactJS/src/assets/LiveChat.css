@@ -1,0 +1,124 @@
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.floating-chat {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 350px;
+    min-height: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    z-index: 998;
+}
+
+.floating-chat.loading {
+    box-shadow: 0 0 20px rgba(219, 0, 0, 0.61);
+    animation: pulse 2s infinite;
+}
+
+.chat-header {
+    background: var(--color-primary);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.chat-body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex: 1;
+    padding: 10px;
+    gap: 5px;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+
+.chat-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+    background: white;
+}
+
+.chat-message {
+    padding: 6px 10px;
+    border-radius: 12px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.chat-message-me {
+    background-color: #d4edda;
+    align-self: flex-end;
+}
+
+.chat-message-user {
+    background-color: #f1f0f0;
+    align-self: flex-start;
+}
+
+@keyframes bounce {
+    70% {
+        transform: translateY(0%);
+    }
+
+    80% {
+        transform: translateY(-15%);
+    }
+
+    90% {
+        transform: translateY(0%);
+    }
+
+    95% {
+        transform: translateY(-7%);
+    }
+
+    97% {
+        transform: translateY(0%);
+    }
+
+    99% {
+        transform: translateY(-3%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bounce2:not(:hover) {
+    animation: bounce2 2s ease infinite;
+}
+
+@keyframes bounce2 {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}

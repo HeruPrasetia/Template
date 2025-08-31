@@ -1,0 +1,106 @@
+[
+    {
+        "ID": "menuClient",
+        "Icon": "fas fa-users",
+        "Nama": "Master Pelanggan",
+        "Path": "/client",
+        "checked": true,
+        "IsPartner": true
+    },
+    {
+        "ID": "menuChat",
+        "Icon": "fab fa-whatsapp",
+        "Nama": "WhatsApp Agen",
+        "Path": "/chat",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuIg",
+        "Icon": "fab fa-instagram",
+        "Nama": "Instagram Agen",
+        "Path": "/ig",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuLead",
+        "Icon": "fas fa-cart-plus",
+        "Nama": "Data Lead",
+        "Path": "/lead",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuPayment",
+        "Icon": "fas fa-money-bill-wave-alt",
+        "Nama": "Data Pembayaran",
+        "Path": "/payment",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuKontak",
+        "Icon": "fas fa-id-card",
+        "Nama": "Data Kontak",
+        "Path": "/kontak",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuBlash",
+        "Icon": "fas fa-bullhorn",
+        "Nama": "Campaign / Blash",
+        "Path": "/blash",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuTermdate",
+        "Icon": "fas fa-calendar",
+        "Nama": "Menu Termdate",
+        "Path": "/termdate",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuProduk",
+        "Icon": "fas fa-hamburger",
+        "Nama": "Master Produk",
+        "Path": "/produk",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuPengiriman",
+        "Icon": "fas fa-truck-loading",
+        "Nama": "Pengiriman",
+        "Path": "/pengiriman",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuTag",
+        "Icon": "fas fa-tags",
+        "Nama": "Master Label",
+        "Path": "/tag",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuScrap",
+        "Icon": "fas fa-search",
+        "Nama": "Scrap Data",
+        "Path": "/scrap",
+        "checked": true,
+        "IsPartner": false
+    },
+    {
+        "ID": "menuFileManager",
+        "Icon": "fas fa-folder",
+        "Nama": "File Manager",
+        "Path": "/filemanager",
+        "checked": true,
+        "IsPartner": false
+    }
+]
